@@ -56,6 +56,15 @@
 > Instruções sobre as bibliotecas base do projeto podem ser encontradas no repositório abaixo e na página oficial de cada biblioteca
 > https://github.com/cccarv82/robotframework-general-libs
 
+### To-Do
+- [ ] Informação do repositório do projeto funcional
+- [ ] Implementação de Continuous Testing
+  - [ ] GitHub
+  - [ ] Azure DevOps
+  - [ ] GitLab
+  - [ ] Docker
+  - [ ] Jenkins
+
 ------
 
 ###### <p align ="center">Feito por: Carlos C. Carvalho</p>
