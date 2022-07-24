@@ -43,12 +43,6 @@ jobs:
       with:
         name: web-report
         path: reports
-    # - name: Test Reporter
-    #   uses: phoenix-actions/test-reporting@v8
-    #   with:
-    #     name: WEB Test Result
-    #     path: frontend/report/xunit.xml
-    #     reporter: java-junit
 
   generate_report:
       if: always()
