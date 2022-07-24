@@ -12,9 +12,9 @@ Test Teardown                                     After Test
 
 *** Test Cases ***
 User Login
-    [Documentation]                       Test Case para validar a funcionalidade de login no sistema utilizando as
-    ...                                   keywords criadas no arquivo de actions e nos outros arquivos
-    ...                                   de suporte aos testes
+    [Documentation]    Test Case para validar a funcionalidade de login no sistema utilizando as
+    ...    keywords criadas no arquivo de actions e nos outros arquivos
+    ...    de suporte aos testes
     [Tags]        positive                smoke
     ${user}       Factory User            login
 
@@ -26,8 +26,8 @@ User Login
     User Should Be Logged In              ${user}
 
 Required Form Fields
-    [Documentation]                       Este caso de teste realiza duas verificações e utiliza keywords
-    ...                                   que estão implementadas em dois arquivos de Actions diferentes
+    [Documentation]    Este caso de teste realiza duas verificações e utiliza keywords
+    ...    que estão implementadas em dois arquivos de Actions diferentes
     [Tags]        negative
     @{expected_alerts}                    Create List
     ...           E-mail obrigatório
