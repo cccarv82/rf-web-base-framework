@@ -59,7 +59,7 @@
 ### To-Do
 - [ ] Informação do repositório do projeto funcional
 - [ ] Implementação de Continuous Testing
-  - [ ] GitHub
+  - [x] GitHub
   - [ ] Azure DevOps
   - [ ] GitLab
   - [ ] Docker
