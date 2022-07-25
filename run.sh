@@ -3,13 +3,13 @@ rm -rf reports/*
 
 # Code Format e Code Review
 robotidy \
-        -c AlignSettingsSection:up_to_column=3:min_width=50 \
-        -c AlignTestCasesSection:enabled=True:widths=14,24 --line-length 100 \
-        -c AlignKeywordsSection:widths=10,10,24,30 --line-length 100 \
-        -c AlignVariablesSection:min_width=20 \
+        -c AlignSettingsSection:enabled=True:up_to_column=3:min_width=30 \
+        -c AlignTestCasesSection:enabled=True:widths=50 --line-length 120 \
+        -c AlignKeywordsSection:enabled=True:widths=50 --line-length 120 \
+        -c AlignVariablesSection:enabled=True:min_width=30 \
         -c IndentNestedKeywords:enabled=True \
         -c OrderTags:enabled=True \
-        tests/
+        tests resources tasks
 
 # Criação do arquivo txt vazio para utilização pelo Robocop.
 # Foi visto que ao implementar um pipeline, ocorria um erro no comando do robocop que não encontrava o arquivo, este comando resolve isso.
