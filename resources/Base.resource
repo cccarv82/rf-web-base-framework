@@ -27,7 +27,7 @@ Start Session
     ...                                               ${BROWSER}
     ...                                               headless=${HEADLESS}
     ...                                               slowMo=00:00:00
-    New Page                                          ${BASE_URL}
+    New Page                                          about:blank
     Set Viewport Size                                 1280                                              768
 
 After Test

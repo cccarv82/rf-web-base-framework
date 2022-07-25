@@ -6,7 +6,8 @@ Documentation                 Test Suite da funcionalidade X
 
 Resource                      ${EXECDIR}/resources/Base.resource
 
-Test Setup                    Start Session
+Suite Setup                   Start Session
+Test Setup                    Go To Login Page
 Test Teardown                 After Test
 
 
@@ -24,6 +25,7 @@ User Login
     # A validação abaixo realiza uma verificação se o login foi realizado com sucesso
     # Essa ação não está implementada ainda. Aonde deveríamos implementar tal ação ?
     User Should Be Logged In                          ${user}
+    Logout
 
 Required Form Fields
     [Documentation]    Este caso de teste realiza duas verificações e utiliza keywords

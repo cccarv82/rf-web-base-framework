@@ -27,6 +27,14 @@ Go To Login Page
     ...                                               visible
     ...                                               5s
 
+Logout
+    [Documentation]    Realiza o logout do usuário na aplicação
+    Click                                             text=Logout
+    Wait For Elements State
+    ...                                               .login-form
+    ...                                               visible
+    ...                                               5s
+
 Fill Credentials
     [Documentation]    Keyword que recebe como parâmetro os dados do usuário e preenche o form de login
     [Arguments]                                       ${user}
