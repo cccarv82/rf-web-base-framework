@@ -1,5 +1,5 @@
 Faker>=13.15.0
-psycopg2>=2.9.3
+psycopg2-binary>=2.9.3
 robotframework>=5.0.1
 robotframework-browser>=13.3.0 # Necessário executar o rfbrowser init após a primeira instalação
 robotframework-crypto>=0.3.0
